@@ -1,0 +1,33 @@
+.avatar {
+  position: relative;
+  height: 490px;
+  width: 224px;
+}
+.avatar-talk {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 224px;
+  height: 180px;
+}
+
+.hero-unit {
+  min-height: 450px;
+  font-weight: 400;
+}
+.j-row {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+@media (max-width: 979px) {
+.hero-unit {
+  padding: 30px;
+}
+}
+@media (max-width: 767px) {
+.hero-unit {
+  padding: 20px;
+}
+}
+
