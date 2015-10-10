@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects</title>
-  
+
   <!-- CSS Includes -->
   <link href="../css/bootstrap.css" rel="stylesheet">
   <link href="../css/jareddlc.css" rel="stylesheet">
@@ -51,8 +51,34 @@
   </div>
 
   <!-- Content -->
-  <div class="container"> 
+  <div class="container">
     <div class="hero-unit">
+
+      <div class="row j-row">
+        <div class="span4">
+          <a href="#coregi" role="button" data-toggle="modal"><img src="../img/projects/thumb_coregi.jpg" class="img-rounded"></a>
+        </div>
+        <div class="span6">
+          <p><b>Web Application - CoreGI:</b></p>
+          <p>WebUI for monitoring CoreOS clusters including fleet and etcd. CoreGI was created to be as simple as possible and deploying CoreGI is as easy as running a docker container. CoreGI can also be installed into a CoreOS cluster using a CoreOS service file.</p>
+          <p><b>Software & Languages:</b></p>
+          <p>Node.js, AngularJS, Bootstrap, Docker</p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row j-row">
+        <div class="span4">
+          <a href="#openfit" role="button" data-toggle="modal"><img src="../img/projects/thumb_openfit.jpg" class="img-rounded"></a>
+        </div>
+        <div class="span6">
+          <p><b>Android - Open Fit:</b></p>
+          <p>Open Fit is an open source alternative to the Gear Fit Manager and allows non-Samsung phones to use and control the Samsung Gear Fit. It currently provides most of the features provided by the Gear Fit Manager application and some new features.</p>
+          <p><b>Software & Languages:</b></p>
+          <p>Java, Eclipse</p>
+        </div>
+      </div>
+      <hr>
 
       <div class="row j-row">
         <div class="span4">
@@ -227,10 +253,37 @@
     </div>
   <!-- Footer -->
     <hr>
-    Jareddlc.com | Powered by <a href="http://www.raspberrypi.org/">Raspberry Pi</a><img src="../img/rpi.jpg">
+    Jareddlc.com | Powered by <a href="http://www.raspberrypi.org/">Raspberry Pi</a><img src="../img/rpi.png">
   </div>
 
   <!-- Hidden DIV -->
+    <div id="openfit" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="openfitLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="openfitLabel">Open Fit:</h3>
+      </div>
+      <div class="modal-body">
+        <img src="../img/projects/openfit_1.jpg" class="img-rounded">
+        <img src="../img/projects/openfit_2.jpg" class="img-rounded">
+      </div>
+      <div class="modal-footer">
+        <a href="https://play.google.com/store/apps/details?id=com.solderbyte.openfit" target="_blank" class="btn btn-primary" role="button" data-toggle="modal">Google Play</a>
+      </div>
+    </div>
+
+    <div id="coregi" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="coregiLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="coregiLabel">CoreGI:</h3>
+      </div>
+      <div class="modal-body">
+        <img src="../img/projects/coregi.jpg" class="img-rounded">
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/yodlr/CoreGI" target="_blank" class="btn btn-primary" role="button" data-toggle="modal">Github</a>
+      </div>
+    </div>
+
     <div id="bclock" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="bclockLabel" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -269,7 +322,7 @@
         <img src="../img/projects/cogswellRegistrar.jpg" class="img-rounded">
       </div>
       <div class="modal-footer">
-        <a href="https://github.com/jareddlc/CogswellRegistrar" target="_blank" class="btn btn-primary" role="button" data-toggle="modal">Open</a>
+        <a href="https://github.com/jareddlc/CogswellRegistrar" target="_blank" class="btn btn-primary" role="button" data-toggle="modal">Github</a>
       </div>
     </div>
 
@@ -296,7 +349,7 @@
         <img src="../img/projects/cogswellnow.jpg" class="img-rounded">
       </div>
       <div class="modal-footer">
-        <a href="http://cogswellnow.jit.su/" target="_blank" class="btn btn-primary" role="button" data-toggle="modal">Open</a>
+        <a href="https://github.com/jareddlc/CogswellNow" target="_blank" class="btn btn-primary" role="button" data-toggle="modal">Github</a>
       </div>
       </div>
     </div>
@@ -310,7 +363,6 @@
         <img src="../img/projects/lint.jpg" class="img-rounded">
       </div>
       <div class="modal-footer">
-        <!--<a href="http://jareddlc.com/db/index.html" target="_blank" class="btn btn-primary" role="button" data-toggle="modal">Open</a>-->
       </div>
       </div>
     </div>
@@ -386,7 +438,7 @@
       <div class="modal-footer">
       </div>
     </div>
-    
+
     <div id="ipad" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ipadLabel" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
