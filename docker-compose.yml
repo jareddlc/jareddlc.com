@@ -4,4 +4,4 @@ services:
     container_name: "jareddlc.com"
     build: .
     ports:
-      - "80"
+      - "80:80"
