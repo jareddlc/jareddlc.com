@@ -7,6 +7,6 @@ jareddlc.com
 
 ```
 $ docker build -t jareddlc.com .
-$ docker run --name jareddlc.com -d -p 80 jareddlc.com
-$ docker-compose up -d
+$ docker run -d --name jareddlc_com -p 80 jareddlc.com
+$ docker service create --replicas 1 --name jareddlc_com -p 80 jareddlc.com
 ```

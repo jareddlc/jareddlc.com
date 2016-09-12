@@ -1,7 +1,0 @@
-version: '2'
-services:
-  jareddlc.com:
-    container_name: "jareddlc.com"
-    build: .
-    ports:
-      - "80:80"
