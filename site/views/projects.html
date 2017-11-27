@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {{> head }}
+  <body>
+    {{> navbar }}
+
+    <section class="section">
+      <div class="container hero is-light jareddlc-hero">
+        <div class="hero-body">
+          {{#each projects}}
+            {{> project}}
+          {{/each}}
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

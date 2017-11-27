@@ -1,0 +1,109 @@
+<div class="content">
+  <!-- Personal Info -->
+  <div class="is-clearfix">
+    <span class="title">{{schema.basics.name}}</span>
+    {{#if pdf}}
+    <span class="is-pulled-right jareddlc-resume-info">
+      <div>{{schema.basics.phone}}</div>
+      <div>{{schema.basics.email}}</div>
+      <div>{{schema.basics.website}}</div>
+    </span>
+    {{/if}}
+  </div>
+  <br>
+
+  <!-- Work experience -->
+  <div class="columns">
+    <div class="column is-2">
+      <hr class="jareddlc-resume-hr">
+    </div>
+
+    <div class="column is-10">
+      <span class="jareddlc-resume-title">Experience</span>
+      {{#each schema.work}}
+      {{#if this.pdf}}
+      <div>
+        <span class="jareddlc-resume-company">{{company}}</span> <span class="jareddlc-resume-bullet">•</span> <span>{{location}}</span>
+      </div>
+      <div>
+        <span class="jareddlc-resume-position">{{position}}</span> <span class="jareddlc-resume-date">({{month startDate}}/{{year startDate}} - {{month endDate}}/{{year endDate}})</span>
+      </div>
+      <div class="jareddlc-resume-highlights">
+        <ul>
+        {{#each highlights}}
+          <li><span class="has-text-black">{{this}}<span></li>
+        {{/each}}
+        </ul>
+      </div>
+      {{/if}}
+      {{/each}}
+    </div>
+  </div>
+
+  <!-- Volunteer -->
+  <div class="columns">
+    <div class="column is-2">
+      <hr class="jareddlc-resume-hr">
+    </div>
+
+    <div class="column is-10">
+      <span class="jareddlc-resume-title">Volunteer</span>
+      {{#each schema.volunteer}}
+      <div>
+        <span class="jareddlc-resume-company">{{organization}}</span>
+      </div>
+      <div class="jareddlc-resume-highlights">
+        <ul>
+        {{#each highlights}}
+          <li><span class="has-text-black">{{this}}<span></li>
+        {{/each}}
+        </ul>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="columns">
+    <div class="column is-2">
+      <hr class="jareddlc-resume-hr">
+    </div>
+
+    <div class="column is-10">
+      <span class="jareddlc-resume-title">Skills</span>
+      {{#each schema.skills}}
+      <div>
+        <span class="jareddlc-resume-company">{{name}}:</span>
+        {{#each keywords}}
+          <span class="has-text-black">{{comma ../keywords.length @index this}}</span>
+        {{/each}}
+      </div>
+      {{/each}}
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="columns">
+    <div class="column is-2">
+      <hr class="jareddlc-resume-hr">
+    </div>
+
+    <div class="column is-10">
+      <span class="jareddlc-resume-title">Education</span>
+      {{#each schema.education}}
+      <div>
+        <span class="jareddlc-resume-company">{{studyType}} {{area}}</span><span>, {{month endDate}} {{year endDate}}</span>
+      </div>
+      <div>
+        <span>{{institution}}, {{location}}</span>
+      </div>
+      {{#if award}}
+      <div>
+        <span class="has-text-weight-bold">Honors: </span><span>{{award}}</span>
+      </div>
+      {{/if}}
+      {{/each}}
+    </div>
+  </div>
+
+</div>

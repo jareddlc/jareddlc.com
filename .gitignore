@@ -1,0 +1,5 @@
+node_modules
+assets.tar
+site/static/file
+site/static/vendor
+*.log

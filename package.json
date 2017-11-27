@@ -1,0 +1,36 @@
+{
+  "name": "jareddlc.com",
+  "version": "1.0.0",
+  "description": "Jareddlc.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install": "node install.js",
+    "pack": "node install.js pack"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jareddlc/jareddlc.com.git"
+  },
+  "author": "Jared De La Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jareddlc/jareddlc.com/issues"
+  },
+  "homepage": "https://github.com/jareddlc/jareddlc.com#readme",
+  "dependencies": {
+    "bulma": "~0.6.0",
+    "bunyan": "~1.8.12",
+    "bunyan-prettystream": "~0.1.3",
+    "express": "~4.16.2",
+    "express-handlebars": "~3.0.0",
+    "follow-redirects": "~1.2.6",
+    "font-awesome": "~4.7.0",
+    "html-pdf": "~2.2.0",
+    "serve-favicon": "~2.4.5",
+    "tar": "~4.0.2"
+  }
+}

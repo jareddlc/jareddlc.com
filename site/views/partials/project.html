@@ -1,0 +1,41 @@
+<div class="columns">
+  <div class="column is-4">
+    <!-- Image -->
+    <figure class="image jareddlc-img">
+      <img id="img-{{video}}" class="modal-button" data-target="modal-{{name}}" src="{{img}}">
+    </figure>
+    <!-- Modal -->
+    <div id="modal-{{name}}" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <span class="image">
+          <video id="{{video}}" class="video-{{name}}" width="1280" height="720" controls loop>
+            <source src="{{video}}" type="video/mp4">
+          </video>
+        </span>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+  </div>
+
+  <div class="column is-8">
+    <!-- Content -->
+    <div class="content">
+      <h1 class="title">{{name}}</h1>
+      <p>{{description}}</p>
+      <p>
+        <a href="{{githubUrl}}">
+          <span class="icon">
+            <i class="fa fa-lg fa-github"></i>
+          </span>
+          <span class="has-text-weight-semibold">{{github}}</span>
+        </a>
+      </p>
+      <p>
+      {{#each tags}}
+        <span class="tag is-primary {{cssColor}}">{{name}}</span>
+      {{/each}}
+      </p>
+    </div>
+  </div>
+</div>

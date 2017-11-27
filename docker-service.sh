@@ -4,7 +4,7 @@
 output="$(docker service ls 2>/dev/null | grep jareddlc_com)"
 if [ -z "$output" ]; then
   echo "Docker service is not running. Creating docker service..."
-  docker service create --replicas 1 --name jareddlc_com -p 80 jareddlc.com
+  docker service create --replicas 1 --name jareddlc_com -p 8080 jareddlc.com
   exit 0
 fi
 echo "Docker service is running."
