@@ -14,7 +14,6 @@ ADD routes/ /src/routes/
 ADD site/ /src/site/
 ADD index.js /src/
 ADD install.js /src/
-COPY assets.tar /src/
 
 RUN npm run install
 
