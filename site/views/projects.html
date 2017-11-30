@@ -9,6 +9,9 @@
         <div class="hero-body">
           {{#each projects}}
             {{> project}}
+            {{#lastElement @index @root.projects.length}}
+              <hr class="jareddlc-project-hr">
+            {{/lastElement}}
           {{/each}}
         </div>
       </div>
