@@ -34,9 +34,11 @@ config.schema = {
     summary: '',
     highlights: [
       'Maintained and updated core cloud services',
-      'Updated and delivered core cloud services to run on premise',
-      'Contributed to the tooling and continuous integration projects',
-      'Guided and mentored interns'
+      'Developed a real-time analytics aggregation service',
+      'Implemented crash analytics and usage UI',
+      'Created real-time analytics UI',
+      'Modified core cloud services to run on-premise',
+      'Contributed to the security and continuous integration projects',
     ],
     pdf: true
   }, {
@@ -220,10 +222,10 @@ config.schema = {
       'C',
       'C++',
       'HTML/CSS',
-      'Go',
       'Java',
       'JavaScript',
       'Node.js',
+      'Rust',
       'PHP',
       'Python'
     ]

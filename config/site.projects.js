@@ -3,6 +3,54 @@ let config = module.exports = {};
 config.title = 'Projects';
 config.projects = [
   {
+    name: 'Tessract',
+    github: 'https://github.com/SolderByte/tessract',
+    githubUrl: 'https://github.com/SolderByte/tessract',
+    img: 'file/tessract.jpg',
+    video: 'file/tessract.mp4',
+    description: 'Bluetooth notification device. This device will pair with your phone and will light up whenever a notification is received. It can be customized for each app and supports full RGB.',
+    tags: [
+      {
+        name: 'KiCAD',
+        cssColor: 'color-kicad'
+      },
+      {
+        name: 'FlatCAM',
+        cssColor: 'color-flatcam'
+      },
+      {
+        name: 'LinuxCNC',
+        cssColor: 'color-linuxcnc'
+      },
+      {
+        name: 'Arduino',
+        cssColor: 'color-arduino'
+      },
+      {
+        name: 'Android',
+        cssColor: 'color-android'
+      },
+      {
+        name: 'Java',
+        cssColor: 'color-java'
+      }
+    ]
+  },
+  {
+    name: 'Gut',
+    github: 'https://github.com/jareddlc/gut',
+    githubUrl: 'https://github.com/jareddlc/gut',
+    img: 'file/gut.jpg',
+    video: 'file/gut.mp4',
+    description: 'Collection of plugins that simplifies development workflow. It has a support for plugins, selectable menus, colors, storage, and more. The goal is to allow any developer to easily add plugins to simplify their workflow.',
+    tags: [
+      {
+        name: 'Shell',
+        cssColor: 'color-shell'
+      }
+    ]
+  },
+  {
     name: 'OpenFit',
     github: 'https://github.com/jareddlc/openfit',
     githubUrl: 'https://github.com/jareddlc/openfit',

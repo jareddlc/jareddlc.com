@@ -171,8 +171,20 @@
   background-color: #DC0936 !important;
   color: #FFF !important;
 }
+.color-flatcam {
+  background-color: #0078E7 !important;
+  color: #FFF !important;
+}
 .color-java {
   background-color: #F89820 !important; /* #F89820 #5382A1 */
+  color: #FFF !important;
+}
+.color-kicad {
+  background-color: #314CB0 !important; /* #1B2B63 #FF7700 */
+  color: #FFF !important;
+}
+.color-linuxcnc {
+  background-color: #4272B8 !important; /* #FFCC3B */
   color: #FFF !important;
 }
 .color-mongodb {
@@ -193,6 +205,10 @@
 }
 .color-sdl {
   background-color: #132B48 !important; /* #8BB2D6 */
+  color: #FFF !important;
+}
+.color-shell {
+  background-color: #4DA825 !important;
   color: #FFF !important;
 }
 .color-sqlite {
