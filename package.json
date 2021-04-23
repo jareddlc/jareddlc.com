@@ -31,6 +31,6 @@
     "font-awesome": "~4.7.0",
     "html-pdf": "~2.2.0",
     "serve-favicon": "~2.5.0",
-    "tar": "~4.0.2"
+    "tar": "~4.4.2"
   }
 }
