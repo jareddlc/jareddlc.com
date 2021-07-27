@@ -1,5 +1,6 @@
-node_modules
-assets.tar
-site/static/file
-site/static/vendor
-*.log
+/target
+
+/www/static/css/bulma.css
+/www/static/css/font-awesome.min.css
+/www/static/file
+/www/static/fonts

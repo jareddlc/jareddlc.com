@@ -1,0 +1,17 @@
+<div class="columns">
+  <div class="column is-2">
+    <hr class="jareddlc-resume-hr">
+  </div>
+
+  <div class="column is-10">
+    <span class="jareddlc-resume-title">Skills</span>
+    {{#each skills}}
+    <div>
+      <span class="jareddlc-resume-company">{{name}}:</span>
+      {{#each keywords}}
+      <span class="has-text-black">{{this}}{{#unless @last}},{{/unless}}</span>
+      {{/each}}
+    </div>
+    {{/each}}
+  </div>
+</div>

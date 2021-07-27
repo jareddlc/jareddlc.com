@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{{> head.hbs }}
+
+<body>
+  {{> navbar.hbs }}
+
+  <section class="section">
+    <div class="container hero is-light jareddlc-hero">
+      <div class="hero-body">
+        {{#each projects}}
+        <div class="jareddlc-project">
+          {{> partial_projects.hbs }}
+          {{#unless @last}}
+          <hr class="jareddlc-project-hr">
+          {{/unless}}
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

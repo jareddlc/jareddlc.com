@@ -1,0 +1,22 @@
+<div class="columns">
+  <div class="column is-2">
+    <hr class="jareddlc-resume-hr">
+  </div>
+
+  <div class="column is-10">
+    <span class="jareddlc-resume-title">Education</span>
+    {{#each education}}
+    <div>
+      <span class="jareddlc-resume-company">{{studyType}} {{area}}</span><span>, {{formattedDate}}</span>
+    </div>
+    <div>
+      <span>{{institution}}, {{location}}</span>
+    </div>
+    {{#if award}}
+    <div>
+      <span class="has-text-weight-bold">Honors: </span><span>{{award}}</span>
+    </div>
+    {{/if}}
+    {{/each}}
+  </div>
+</div>

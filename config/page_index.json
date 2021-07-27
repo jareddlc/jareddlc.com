@@ -1,0 +1,23 @@
+{
+  "title": "Home",
+  "tiles": [
+    {
+      "name": "Github",
+      "url": "https://github.com/jareddlc",
+      "icon": "fa-github",
+      "color": "color-github"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/jareddlc",
+      "icon": "fa-twitter",
+      "color": "color-twitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jareddlc",
+      "icon": "fa-linkedin",
+      "color": "color-linkedin"
+    }
+  ]
+}

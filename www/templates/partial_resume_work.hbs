@@ -1,0 +1,46 @@
+<div class="columns">
+  <div class="column is-2">
+    <hr class="jareddlc-resume-hr">
+  </div>
+
+  <div class="column is-10">
+    <span class="jareddlc-resume-title">Experience</span>
+    {{#each work}}
+    {{#if @root.pdf}}
+    {{#if show_pdf}}
+    <div>
+      <span class="jareddlc-resume-company">{{company}}</span> <span class="jareddlc-resume-bullet">•</span>
+      <span>{{location}}</span>
+    </div>
+    <div>
+      <span class="jareddlc-resume-position">{{position}}</span> <span
+        class="jareddlc-resume-date">({{formattedDate}})</span>
+    </div>
+    <div class="jareddlc-resume-highlights">
+      <ul>
+        {{#each highlights}}
+        <li><span class="has-text-black">{{this}}<span></li>
+        {{/each}}
+      </ul>
+    </div>
+    {{/if}}
+    {{else}}
+    <div>
+      <span class="jareddlc-resume-company">{{company}}</span> <span class="jareddlc-resume-bullet">•</span>
+      <span>{{location}}</span>
+    </div>
+    <div>
+      <span class="jareddlc-resume-position">{{position}}</span> <span
+        class="jareddlc-resume-date">({{formattedDate}})</span>
+    </div>
+    <div class="jareddlc-resume-highlights">
+      <ul>
+        {{#each highlights}}
+        <li><span class="has-text-black">{{this}}<span></li>
+        {{/each}}
+      </ul>
+    </div>
+    {{/if}}
+    {{/each}}
+  </div>
+</div>
