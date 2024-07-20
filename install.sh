@@ -34,7 +34,7 @@ download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/blitz
 download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/circuitron.jpg" "./www/static/file/circuitron.jpg"
 download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/circuitron.mp4" "./www/static/file/circuitron.mp4"
 download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/cogswell-now.jpg" "./www/static/file/cogswell-now.jpg"
-download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/cogswell-now.mp4" "./www/static/file/cogswell-now.jpg.mp4"
+download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/cogswell-now.mp4" "./www/static/file/cogswell-now.mp4"
 download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/cogswell-registrar.jpg" "./www/static/file/cogswell-registrar.jpg"
 download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/cogswell-registrar.mp4" "./www/static/file/cogswell-registrar.mp4"
 download "https://github.com/jareddlc/jareddlc.com/releases/download/0.0.0/coregi.jpg" "./www/static/file/coregi.jpg"

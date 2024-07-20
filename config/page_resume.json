@@ -25,6 +25,20 @@
   "work": [
     {
       "show_pdf": true,
+      "company": "Nvidia",
+      "location": "Santa Clara, CA",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-11-01",
+      "endDate": "",
+      "formattedDate": "Nov/2021 - Present",
+      "highlights": [
+        "Migrated Sphinx site and content into a single page app with Markdown",
+        "Designed reusable web components",
+        "Applied observability to UI applications and services"
+      ]
+    },
+    {
+      "show_pdf": true,
       "company": "Axway",
       "location": "Santa Clara, CA",
       "position": "Software Engineer",
